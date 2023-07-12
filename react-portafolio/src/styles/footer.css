@@ -1,0 +1,9 @@
+.redes-div {
+    display: flex;
+    margin-top: 180px;
+    width: auto;
+    height: 207px;
+    flex-shrink: 0;    
+    border-top: 1px solid black;
+    align-items: center;
+}

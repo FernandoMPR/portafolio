@@ -1,0 +1,55 @@
+.div-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    margin-top: 150px;
+}
+
+.input-name{
+    display: inline-block;
+    width: 488px;
+    height: 73px;
+    flex-shrink: 0;
+    margin-right: 70px;
+}
+.mesagge {
+    width: 1057px;
+    height: 226px;
+    flex-shrink: 0;   
+    resize: none; 
+}
+
+fieldset{
+    border: none;
+}
+
+.contacto {
+    display: flex;
+    width: 198px;
+    height: 57px;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;    
+}
+
+input, textarea {
+    border-radius: 10px;
+}
+
+.env-form{
+    display: block;
+    margin: auto;
+    width: 292px;
+    height: 51px;
+    border-radius: 50px;
+    background: #765E5E;
+    color: white;
+    font-size: 22px    
+}
