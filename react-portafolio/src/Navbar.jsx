@@ -1,13 +1,12 @@
 import React from 'react'
-import  "./App.css"
-
-
+import  "./Navbar.css"
+import { cambiarTema} from '../index.js';
 
 
 function Navigatebar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-main" >
-    <div className="container-fluid">
+    <nav className="navbar navbar-expand-md navbar-light fixed-top bg-body-tertiary navbar-main">
+    <div className="container">
       <a className="navbar-brand " href="#">Portafolio</a>
       <button 
        className="navbar-toggler"
@@ -18,14 +17,25 @@ function Navigatebar() {
        aria-expanded="false" 
        aria-label="Barra de Navegacion">
 
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggle-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="nav ms-auto text-dark flex-column flex-md-row">
-          <a className="nav-link active " aria-current="page" href="#Inicio" >INICIO</a>
-          <a className="nav-link " href="#Habilidades" >HABILIDADES</a>
+        <ul className="nav ms-auto flex-column flex-md-row bd-navbar-nav nav-indicator">
+          <li className='nav-item'>
+          <a className="nav-link active" aria-current="page" href="#Inicio" >INICIO</a>
+          </li>
+          <li className='nav-item'>
+          <a className="nav-link " href="#Habili" >HABILIDADES</a>
+          </li>
+          <li className='nav-item'>
           <a className="nav-link " href="#Contact" >CONTACTO</a>
-        </div>
+          </li>
+        </ul>
+
+        {/* <--MODO OSCURO--> */}
+        <button onClick={ cambiarTema } className='btn rounded-fill'><i id="dl-icon" className='bi bi-moon-fill'></i></button>
+              
+          
       </div>
     </div>
   </nav>
