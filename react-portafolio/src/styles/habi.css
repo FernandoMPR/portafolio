@@ -1,114 +1,7 @@
 .div-habilidades {
-    display: flex;
-    margin-top: 100px;
-    flex-direction: column;
-    align-items: center;
-    gap: 59px;
+    margin-top: 80px;
 }
 
-.habiliades {
-    display: flex;
-    width: 259px;
-    height: 38px;
-    flex-direction: column;
-    color: #000;
-    font-size: 32px;
-    font-family: Rhodium Libre;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.division {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-}
-
-.nombres {
-    display: flex;
-    padding: 0px 10px;
-    align-items: flex-start;
-    gap: 115px;
-}
-
-.div-logos{
-    display: flex;
-    align-items: flex-start;
-    gap: 70px;    
-}
-
-.logos-lenguajes {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 45px;
-}
-
-.javascript{
-    width: 123px;
-    height: 137px;    
-}
-.python {
-    width: 115px;
-    height: 139px;    
-}
-
-.logos-desarrollo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 61px;    
-}
-
-.css {
-    width: 115px;
-    height: 131px;
-}
-
-.html {
-    width: 115px;
-    height: 128px;
-}
-
-.nodejs {
-    width: 191px;
-    height: 121px;    
-}
-
-.logos-frameworks {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 49px;    
-}
-
-.boostrap {
-    width: 154px;
-    height: 150px;    
-}
-
-.react {
-    width: 139px;
-    height: 128px;    
-}
-
-.django {
-    width: 158px;
-    height: 135px;    
-}
-
-.logos-database{
-    display: flex;
-    width: 201px;
-    height: 421px;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    flex-shrink: 0;
-
-}
 
 .mongo {
     width: 201px;
@@ -119,16 +12,6 @@
     width: 134px;
     height: 139px;
     flex-shrink: 0;    
-}
-
-.logos-control {
-    display: flex;
-    width: 201px;
-    height: 421px;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    flex-shrink: 0;   
 }
 
 .git {

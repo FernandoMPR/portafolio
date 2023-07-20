@@ -1,7 +1,6 @@
 import React from 'react'
 import  "./yosoy.css"
 import Yo from "./img/Yo.jpg"
-import Habilidades from './habilidades';
 
 function Person () {
   return (
@@ -19,11 +18,7 @@ function Person () {
                 <img src={Yo} alt="FotoPerfil" className='w-100 foto'/>
               </div>
               </div> 
-              <div className='row align-content-center header-main'>
-              <Habilidades />
-              </div>
             </header>
-            
   );
 }
 

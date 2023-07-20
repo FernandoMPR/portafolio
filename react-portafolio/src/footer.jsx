@@ -3,10 +3,16 @@ import "./styles/footer.css"
 
 function Footer() {
 return (
-      <div className='redes-div'>
-        <a href='https://www.linkedin.com/in/mauro-p/' alt="linkedin"><img src="https://static.vecteezy.com/system/resources/previews/018/930/585/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" className='logo'/></a>
-        <a href='https://github.com/FernandoMPR' alt="github"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" className='logo'/></a>
-      </div>
+      <footer className='bd-footer py-4 py-md-5 mt-6 bg-body-tertiary text-center p-4'>
+        <div className="container d-md-block icons">
+          <a href='https://www.linkedin.com/in/mauro-p/' target="_blank" className="bg-linkedin" alt="linkedin">
+            <i class="bi bi-linkedin"></i>
+            </a>
+          <a href='https://github.com/FernandoMPR' target="_blank" className="bg-github" alt="github">
+            <i class="bi bi-github"></i>
+            </a>
+        </div>
+      </footer>
 )
 }
 

@@ -1,9 +1,15 @@
-.redes-div {
-    display: flex;
-    margin-top: 180px;
-    width: auto;
-    height: 207px;
-    flex-shrink: 0;    
-    border-top: 1px solid black;
+.icons > a {
+    --size: 80px;
+    width: var(--size);
+    height: var(--size);
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
+}
+
+.p-4{
+    margin-top: 200px;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }

@@ -22,11 +22,11 @@ function Contacto() {
         <div className="container">
             <section className="row justify-content-center div-contacto text-center" id="Contact">
                 <h2 className="col-12 display-4 text-capitalize mb-3">CONTACTO</h2>
-                <article className="col-10 col-md-10 col-lg-10 bg-white rounded shadow p-3 fw-light">
+                <article className="col-10 col-md-10 col-lg-10">
                     <form ref={refForm} action="" onSubmit={handleSubmit}>
-                        <fieldset className="field-name-email">
+                        <fieldset className="field-name-email contacto">
                             <input type="text" placeholder="Escriba su nombre" name="username" required className="col-10 col-md-10 col-lg-2 form-control"></input>
-                            <input type="email" placeholder="Escriba su email" name="username" id="email" required className="col-10 col-md-10 col-lg-2 form-control"></input>
+                            <input type="email" placeholder="Escriba su email" name="username" id="email" required className="col-10 col-md-10 col-lg-2 form-control inputs"></input>
                         </fieldset>
                         <fieldset className="field-message">
                             <textarea maxLength="250" placeholder="Escribe tu mensaje" name="message" id="" cols="30" rows="20" className="col-10 col-md-10 col-lg-2 form-control"></textarea>

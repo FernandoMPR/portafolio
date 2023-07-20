@@ -4,6 +4,7 @@
     align-items: center;
     gap: 37px;
     margin-top: 150px;
+    padding: 0 !important;
 }
 
 .input-name{
@@ -26,30 +27,20 @@ fieldset{
 
 .contacto {
     display: flex;
-    width: 198px;
-    height: 57px;
     flex-direction: column;
-    color: #000;
     text-align: center;
     font-size: 32px;
     font-family: Rhodium Libre;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin: auto;    
+    line-height: normal; 
+    padding-bottom: 15px;
 }
 
 input, textarea {
     border-radius: 10px;
 }
 
-.env-form{
-    display: block;
-    margin: auto;
-    width: 292px;
-    height: 51px;
-    border-radius: 50px;
-    background: #765E5E;
-    color: white;
-    font-size: 22px    
+.inputs {
+    margin-top: 15px;
 }
