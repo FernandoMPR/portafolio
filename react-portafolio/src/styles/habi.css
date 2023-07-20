@@ -3,25 +3,8 @@
 }
 
 
-.mongo {
-    width: 201px;
-    height: 201px;    
-}
-
-.postgresql {
-    width: 134px;
-    height: 139px;
-    flex-shrink: 0;    
-}
-
-.git {
-    width: 154px;
-    height: 154px;    
-}
-
 .iconos-lenguajes {
-    --box-sizing: 150px;
+    --box-sizing: 120px;
     width: var(--box-sizing);
     height: var(--box-sizing);
-    padding: 10px;
 }

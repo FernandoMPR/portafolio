@@ -31,7 +31,7 @@ function Contacto() {
                         <fieldset className="field-message">
                             <textarea maxLength="250" placeholder="Escribe tu mensaje" name="message" id="" cols="30" rows="20" className="col-10 col-md-10 col-lg-2 form-control"></textarea>
                          </fieldset> 
-                         <button className="btn  btn-primary col-10 col-md-10 col-lg-2">Enviar</button> 
+                         <button className="btn  btn-primary col-10 col-md-10 col-lg-4 mt-5">Enviar</button> 
                     </form>    
                 </article>
             </section>

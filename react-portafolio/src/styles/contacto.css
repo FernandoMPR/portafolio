@@ -44,3 +44,7 @@ input, textarea {
 .inputs {
     margin-top: 15px;
 }
+
+textarea {
+    resize:none;
+}
