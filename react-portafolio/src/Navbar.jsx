@@ -21,7 +21,7 @@ function Navigatebar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg  fixed-top bg-body-tertiary navbar-main">
+    <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary navbar-main">
     <div className="container">
       <a className="navbar-brand" href="#">Portafolio</a>
       <button 
