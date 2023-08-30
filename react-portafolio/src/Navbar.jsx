@@ -1,6 +1,6 @@
 import React from 'react'
 import  "./Navbar.css"
-
+import logo from "./img/logo1.png"
 
 function Navigatebar() {
 
@@ -21,9 +21,9 @@ function Navigatebar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary navbar-main">
+    <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary navbar-main p-0">
     <div className="container">
-      <a className="navbar-brand" href="#">Portafolio</a>
+      <a className="navbar-brand"><img src={logo} className='logo' alt="logo"></img></a>
       <button 
        className="navbar-toggler"
        type="button" 
@@ -41,6 +41,9 @@ function Navigatebar() {
           </li>
           <li className='nav-item'>
             <a className="nav-link " href="#Habili" >HABILIDADES</a>
+          </li>
+          <li className='nav-item'>
+            <a className="nav-link " href="#Habili" >PROYECTOS</a>
           </li>
           <li className='nav-item'>
             <a className="nav-link " href="#Contact" >CONTACTO</a>

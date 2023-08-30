@@ -13,9 +13,9 @@ export const Proyectos = () => {
               <a href="https://github.com/FernandoMPR/graph_React" className="icon-link">
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="icon-link">
+              {/* <a href="#" className="icon-link">
                 <i className="bi bi-globe"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <h3>Grafico Dinamico</h3>

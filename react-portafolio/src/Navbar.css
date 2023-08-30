@@ -10,6 +10,7 @@ a {
 
 .navbar-main {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  background: rgb(12,22,34) !important;
 }
 
 nav ul {
@@ -17,7 +18,7 @@ nav ul {
 }
 
 .nav-indicator a {
-  color: #83818c !important;
+  color: white !important;
   padding:20px;
   text-decoration: none;
   margin:0 6px;
@@ -28,7 +29,19 @@ nav ul {
 }
 
 .nav-indicator a:hover {
-  color: rgb(23, 230, 230) !important;
+  color: rgb(161, 0, 0) !important;
 }
 
 
+#Habili {
+  padding-top: 5px; 
+}
+
+#Contact {
+  padding-top: 1px;
+}
+
+.logo {
+  width: 90px;
+  height: auto; 
+}

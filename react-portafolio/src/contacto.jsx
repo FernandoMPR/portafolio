@@ -19,8 +19,8 @@ function Contacto() {
     }
 
     return (
-        <div className="container">
-            <section className="row justify-content-center div-contacto text-center" id="Contact">
+        <div className="container" id="Contact">
+            <section className="row justify-content-center div-contacto text-center" >
                 <h2 className="col-12 display-4 text-capitalize mb-3">CONTACTO</h2>
                 <article className="col-10 col-md-10 col-lg-10">
                     <form ref={refForm} action="" onSubmit={handleSubmit}>

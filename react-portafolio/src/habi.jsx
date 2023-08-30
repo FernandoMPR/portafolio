@@ -4,13 +4,13 @@ import images from './images.js';
 
 function Habilidades () {
   return (
-        <div className="container">
-        <section className='row  justify-content-around  text-center div-habilidades' id='Habili'>
+        <div className="container" id='Habili'>
+        <section className='row  justify-content-around  text-center div-habilidades'>
             {/* Titulo */}
             <h2 className='col-11 display-4  mb-5'>HABILIDADES</h2>
-
+ 
             {/* LENGUAJES */}
-            <article className="col-10 col-md-10 col-lg-2 rounded shadow p-3 mb-3 mb-md-0">
+            <article className="col-10 col-md-10 col-lg-2 rounded shadow p-3 mb-3 mb-md-0 div-hab">
                 <h3 className='text-capitalize'>LENGUAJES</h3>
                 <img src={images.javascript} alt='javascript' className='mt-3 iconos-lenguajes'/>
                 <div className="row justify-content-center">
