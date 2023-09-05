@@ -1,20 +1,29 @@
-.div-habilidades {
-    margin-top: 80px;
+.bgc{
+  background: linear-gradient(315deg, rgba(12,22,34,1) 0%, rgba(9,34,63,1) 15%, rgba(12,22,34,1) 49%, rgba(5,29,58,1) 82%, rgba(12,22,35,1) 100%);
+
 }
+
+.cont {
+  background: #0c1622 ;
+}
+
+.sect {
+  padding-bottom: 148px;
+}
+  
 
 
 .img-proyec {
     --box-sizing: 350px;
     width: 100%;
     height: var(--box-sizing);
-    padding: 10px;
-    
 }
 
 .iconos-lenguajes {
     --box-sizing: 120px;
     width: var(--box-sizing);
     height: var(--box-sizing);
+    padding: 1px;
 }
 
 .zoom-container {

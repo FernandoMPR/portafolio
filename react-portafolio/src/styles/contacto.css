@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 37px;
-    margin-top: 150px;
+    margin-top: 30px;
     padding: 0 !important;
 }
 
@@ -35,6 +35,7 @@ fieldset{
     font-weight: 400;
     line-height: normal; 
     padding-bottom: 15px;
+
 }
 
 input, textarea {
@@ -47,4 +48,9 @@ input, textarea {
 
 textarea {
     resize:none;
+}
+
+.formColor {
+    background: linear-gradient(315deg, rgba(15, 48, 85, 0.329) 15%, rgba(16, 58, 114, 0.24) 100%);
+    color: white 
 }

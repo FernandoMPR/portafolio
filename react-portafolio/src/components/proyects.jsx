@@ -3,9 +3,10 @@ import imagen from "../img/grafico.jpg";
 
 export const Proyectos = () => {
   return (
-    <div className="container">
-      <div className="row justify-content-around text-center div-habilidades">
-        <h2 className="col-11 display-4 mb-5">Proyectos</h2>
+    <div className="back">
+    <div className="container" id="Proye">
+      <div className="row justify-content-around text-center div-habilidades pt-5 pb-5">
+        <h2 className="col-11 display-4 mb-5 text-white ">Proyectos</h2>
         <div className="col-10 col-md-10 col-lg-4 rounded shadow p-3 mb-3 mb-md-0 position-relative">
           <div className="zoom-container">
             <img src={imagen} className="mt-2 img-proyec" alt="Proyecto" />
@@ -13,9 +14,6 @@ export const Proyectos = () => {
               <a href="https://github.com/FernandoMPR/graph_React" className="icon-link">
                 <i className="bi bi-github"></i>
               </a>
-              {/* <a href="#" className="icon-link">
-                <i className="bi bi-globe"></i>
-              </a> */}
             </div>
           </div>
           <h3>Grafico Dinamico</h3>
@@ -25,6 +23,7 @@ export const Proyectos = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -43,7 +43,7 @@ function Navigatebar() {
             <a className="nav-link " href="#Habili" >HABILIDADES</a>
           </li>
           <li className='nav-item'>
-            <a className="nav-link " href="#Habili" >PROYECTOS</a>
+            <a className="nav-link " href="#Proye" >PROYECTOS</a>
           </li>
           <li className='nav-item'>
             <a className="nav-link " href="#Contact" >CONTACTO</a>

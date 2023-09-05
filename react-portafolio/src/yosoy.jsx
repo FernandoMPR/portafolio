@@ -24,7 +24,7 @@ function Person () {
                 </div>
               </div>
               </div> 
-            </header>
+            </header >
             </div>
   );
 }
