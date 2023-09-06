@@ -51,6 +51,6 @@ textarea {
 }
 
 .formColor {
-    background: linear-gradient(315deg, rgba(15, 48, 85, 0.329) 15%, rgba(16, 58, 114, 0.24) 100%);
-    color: white 
+    background: white !important;
+    color: black !important;
 }

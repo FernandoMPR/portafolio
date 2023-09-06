@@ -49,8 +49,6 @@ function Navigatebar() {
             <a className="nav-link " href="#Contact" >CONTACTO</a>
           </li>
         </ul>
-        {/* <--MODO OSCURO--> */}
-        <button onClick={ cambiarTema } className='btn rounded-fill'><i id="dl-icon" className='bi bi-moon-fill'></i></button>
       </div>
     </div>
   </nav>

@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 .back {
     background: rgb(12,22,34);
     background: linear-gradient(315deg, rgba(12,22,34,1) 0%, rgba(9,34,63,1) 15%, rgba(12,22,34,1) 49%, rgba(5,29,58,1) 82%, rgba(12,22,35,1) 100%);
@@ -15,34 +19,49 @@
     color: white;
     font-size: 30px;
     font-weight: 400;
-    font-family: "Alata";
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .p2{
     font-weight: bold;
-    font-size: 45px;
-    background: #CF1111;
-    background: linear-gradient(to right, #CF1111 0%, #0846ca 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-family: 'Public Pixel', sans-serif;
+    color: #f05123 !important;
 }
+
 
 .p3{
     color: white !important;
     font-size: 25px;
     font-weight: 400;
-    font-family: "Alata";
     padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 
-@media screen and (max-width:766px){
-    body {
-        margin-top: 4rem;
-    }
-    .header-main {
-        height: initial;
-    }
+@media (max-width: 425px) {
+  .profile-picture-container {
+    margin-top: 60px;
+  }
+  .p2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .profile-picture-container,
+  .p2 {
+    margin-top: 60px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 325px) {
+  .profile-picture-container,
+  .p2 {
+    margin-top: 60px;
+    font-size: 22px;
+  }
 }
 
 .profile-picture-container {

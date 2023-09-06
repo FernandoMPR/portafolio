@@ -11,7 +11,23 @@
   padding-bottom: 148px;
 }
   
+.titulo {
+  font-family: 'Morganite', sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+}
 
+@media screen  and (max-width: 1440px){
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen  and (max-width: 1024px){
+  h3 {
+    font-size: 18px;
+  }
+}
 
 .img-proyec {
     --box-sizing: 350px;
@@ -29,6 +45,7 @@
 .zoom-container {
     position: relative;
     overflow: hidden;
+    
   }
   
   .zoom-container img {
