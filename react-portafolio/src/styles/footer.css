@@ -17,3 +17,7 @@
     font-size: 35px;
 }
 
+.icons :hover {
+    color: rgb(0, 119, 199) !important;
+    transition: all .5s ease !important;
+  }

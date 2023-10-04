@@ -15,6 +15,7 @@
   font-family: 'Morganite', sans-serif;
   font-weight: 500;
   font-size: 100px;
+  letter-spacing: 5px;
 }
 
 @media screen  and (max-width: 1440px){
@@ -90,5 +91,5 @@
   }
   
   .zoom-container:hover .icon-link {
-    color: #ffca28;
+    color: #003b7e;
   }

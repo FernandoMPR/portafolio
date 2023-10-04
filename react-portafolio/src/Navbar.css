@@ -29,16 +29,20 @@ nav ul {
 }
 
 .nav-indicator a:hover {
-  color: rgb(161, 0, 0) !important;
+  color: rgb(0, 119, 199) !important;
 }
 
 
 #Habili {
-  /* padding-top: 1px;  */
+  padding-top: 43px; 
 }
 
 #Contact {
-  padding-top: 1px;
+  padding-top: 60px;
+}
+
+#Proye {
+  padding-top: 55px;
 }
 
 .logo {

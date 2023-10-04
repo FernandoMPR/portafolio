@@ -6,7 +6,7 @@ import Contacto from './contacto.jsx'
 import Person from './yosoy.jsx'
 import Habilidades from './habi.jsx'
 import Footer from './footer.jsx'
-import { Proyectos } from './components/proyects.jsx'
+import { Proyectos } from './proyects.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

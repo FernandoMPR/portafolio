@@ -37,16 +37,16 @@ function Navigatebar() {
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul className="nav ms-auto flex-column flex-md-row bd-navbar-nav nav-indicator">
           <li className='nav-item'>
-            <a className="nav-link active" aria-current="page" href="#Inicio" >INICIO</a>
+            <a className="nav-link active d-flex flex-column align-items-center" aria-current="page" href="#Inicio" ><i class="bi bi-house-door-fill"/> INICIO</a>
           </li>
           <li className='nav-item'>
-            <a className="nav-link " href="#Habili" >HABILIDADES</a>
+            <a className="nav-link d-flex flex-column align-items-center" href="#Habili" ><i class="bi bi-person-lines-fill"/>HABILIDADES</a>
           </li>
           <li className='nav-item'>
-            <a className="nav-link " href="#Proye" >PROYECTOS</a>
+            <a className="nav-link d-flex flex-column align-items-center " href="#Proye" ><i class="bi bi-file-earmark-code-fill"/>PROYECTOS</a>
           </li>
           <li className='nav-item'>
-            <a className="nav-link " href="#Contact" >CONTACTO</a>
+            <a className="nav-link d-flex flex-column align-items-center" href="#Contact" ><i class="bi bi-envelope-fill"/>CONTACTO</a>
           </li>
         </ul>
       </div>

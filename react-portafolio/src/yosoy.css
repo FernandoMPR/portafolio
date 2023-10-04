@@ -49,18 +49,26 @@
 }
 
 @media (max-width: 375px) {
-  .profile-picture-container,
   .p2 {
     margin-top: 60px;
     font-size: 26px;
+    margin-top: 0;
+  }
+  .profile-picture-container{
+    margin-top: 60px;
   }
 }
 
-@media (max-width: 325px) {
-  .profile-picture-container,
+@media (max-width: 320px) {
   .p2 {
-    margin-top: 60px;
     font-size: 22px;
+    margin-top: 0;
+  }
+  .p3 {
+    font-size: 20px;
+  }
+  .profile-picture-container{
+    margin-top: 60px;
   }
 }
 

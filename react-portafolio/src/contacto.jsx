@@ -22,8 +22,8 @@ function Contacto() {
         <div className="cont">
         <div className="container" id="Contact">
             <section className="row justify-content-center div-contacto text-center" >
-                <h2 className="col-12 display-4 text-capitalize mb-4 text-white titulo">CONTACTO</h2>
-                <article className="col-10 col-md-10 col-lg-10">
+                <h2 className="col-12 display-4 text-capitalize mb-0 text-white titulo">CONTACTO</h2>
+                <article className="col-10 col-md-10 col-lg-9">
                     <form ref={refForm} action="" onSubmit={handleSubmit}>
                         <fieldset className="field-name-email contacto">
                             <input type="text" placeholder="Escriba su nombre" name="username" required className="col-10 col-md-10 col-lg-2 form-control formColor"></input>
